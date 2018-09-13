@@ -1,0 +1,116 @@
+html {
+  background-color: black;
+}
+
+.header {
+  width: 100%;
+  height: 500px;
+  background: url(http://db.kookje.co.kr/news2000/photo/2015/0920/L20150920.99002000017i1.jpg) no-repeat center top scroll;
+  background-size: cover;
+}
+
+.title {
+  position: absolute;
+  border: 0.2em solid white;
+  border-radius: 3%;
+  padding: 0% 3% 2% 2%;
+  top: 20%;
+  left: 10%;
+  font-size: 2vw;
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+  color: white;
+}
+
+.title p {
+  margin-left: 9%;
+  text-align: center;
+  font-size: 0.3em;
+  opacity: 0.6;
+}
+
+.title-caption {
+  font-size: 1em;
+  position: absolute;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  color: #AAAAAA;
+  font-family: Roboto Condensed;
+  opacity: 0.8; 
+}
+
+.chaser-img {
+  float: right;
+  height: 300px;
+  margin: 0 0 0 15px;
+}
+
+a {
+  color: lightgray;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.quote {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 60px 0 0 0;
+}
+
+.quote p {
+  font-family: Times New Roman;
+  font-weight: lighter;
+  font-size: 0.7em;
+  color: white;
+}
+
+img:not(.chaser-img) {
+  width: 500px;
+  height: auto;
+}
+
+hr {
+  margin: 0px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: lighter;
+  margin: 100px auto auto;
+}
+
+.Filmography {
+  text-align: center;
+}
+
+.chaser-caption {
+  font-size: 15px;
+  color: white;
+  text-align: justify;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.film-container2 {
+ margin-top: 100px;
+ display: grid;
+ grid-template-columns: 400px 400px;
+  grid-template-rows: 300px 300px;
+  grid-gap: 150px;
+}
+
+footer {
+  margin-top: 400px;
+  text-align: center;
+}
